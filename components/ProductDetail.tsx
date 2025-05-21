@@ -19,7 +19,7 @@ const ProductDetail = ({ product }: Props) => {
   const onAddItem = () => {
     addItem({
       id: product.id,
-      name: product.id,
+      name: product.name,
       price: price.unit_amount as number,
       imageUrl: product.images ? product.images[0] : null,
       quantity: 1,
